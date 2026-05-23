@@ -1,0 +1,75 @@
+/* Yolanda Pramesti_202432103 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ffffff;
+    margin: 0;
+}
+
+header {
+    background: #5b9db5;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0 0 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 8px 14px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 1.2em;
+    background: transparent;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+nav a.active {
+    background: white;
+    color: #5b9db5;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem 2.5rem;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #5b9db5;
+}
+
+.styled-table th {
+    background-color: #5b9db5;
+    color: white;
+    padding: 14px 18px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #4a8da3;
+}
+
+.styled-table td {
+    padding: 14px 18px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f0f8ff;
+}
